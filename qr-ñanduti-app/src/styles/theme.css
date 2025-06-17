@@ -1,0 +1,72 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ff0000; /* Red from the Paraguayan flag */
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff0000 25%, #ffffff 25%, #ffffff 50%, #0033a0 50%, #0033a0 75%, #ffffff 75%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #0033a0; /* Blue from the Paraguayan flag */
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.qr-code img {
+    display: block;
+    margin: auto;
+}
+
+.download-button {
+    background-color: #ff0000; /* Red from the Paraguayan flag */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #d40000; /* Darker red for hover effect */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container input {
+    padding: 10px;
+    border: 2px solid #0033a0; /* Blue from the Paraguayan flag */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.input-container button {
+    background-color: #0033a0; /* Blue from the Paraguayan flag */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #002080; /* Darker blue for hover effect */
+}
